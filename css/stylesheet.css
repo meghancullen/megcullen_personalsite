@@ -1,0 +1,90 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: darkmagenta;
+  text-align: center;
+}
+
+h2 {
+  color: purple;
+}
+
+img {
+  border-radius: 2px solid black;
+  padding: 10px;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: yellow;
+}
+
+#container {
+  width: 80px;
+}
+
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+thead {
+  background-color: blueviolet;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%; /* 80% of the available width */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Adds horizontal dividers */
+}
+
+/* Alternating row colors for the table body */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd rows (optional, good practice) */
+}
+
+/* Hover effect for all table body rows */
+tbody tr:hover {
+  background-color: #ddd; /* A different, distinct background color on hover */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+}
+
+th {
+  background-color: #4caf50; /* Green background for header cells */
+  color: white; /* White text for header cells */
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
