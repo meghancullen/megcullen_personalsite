@@ -1,3 +1,17 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid green;
+}
+
+img {
+  padding: 5px;
+  border: 2px solid green;
+  margin: 10px;
+}
+
 body {
   background-color: whitesmoke;
 }
@@ -11,13 +25,8 @@ h2 {
   color: green;
 }
 
-img {
-  border-radius: 2px solid black;
-  padding: 10px;
-}
-
 a:link {
-  color: aqua;
+  color: green;
 }
 
 a:hover {
@@ -25,19 +34,11 @@ a:hover {
 }
 
 a:visited {
-  color: green;
+  color: purple;
 }
 
 a:active {
-  color: yellow;
-}
-
-#container {
-  width: 80px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border: 1px solid green;
+  color: blue;
 }
 
 table {
