@@ -1,14 +1,14 @@
 body {
-  background-color: beige;
+  background-color: whitesmoke;
 }
 
 h1 {
-  color: darkmagenta;
+  color: green;
   text-align: center;
 }
 
 h2 {
-  color: purple;
+  color: green;
 }
 
 img {
@@ -34,6 +34,10 @@ a:active {
 
 #container {
   width: 80px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid green;
 }
 
 table {
@@ -54,7 +58,8 @@ td {
 
 table {
   border-collapse: collapse;
-  width: 80%; /* 80% of the available width */
+  width: 80%;
+  margin: 20px auto;
 }
 
 th,
